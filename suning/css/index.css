@@ -1,9 +1,4 @@
-/*
-* @Author: 张程普
-* @Date:   2017-12-06 14:12:46
-* @Last Modified by:   张程普
-* @Last Modified time: 2017-12-14 11:09:05
-*/
+
 @import url(base.css);
 body{
 	background-color: #F2F2F2;
@@ -1034,6 +1029,8 @@ body{
     background: #e66a07;
     border-radius: 20px;
     color: #fff;
+	font-size: 12px;
+	line-height: 20px;
 }
 .fxtext{
 	float: left;
@@ -1364,13 +1361,18 @@ body{
 	background-color: #4D4BD3;
 }
 .shengxian .sxbox3 .sxb3a .sxb3aa{
-	font: bold 20px/26px;
+	/*font: bold 20px/26px;*/
+	font-size:20px;
+	line-height: 26px;
+	font-weight: bold;
     height: 26px;
     margin: 22px 0 5px 35px;
     color: white;
 }
 .shengxian .sxbox3 .sxb3a .sxb3ab{
-    font: 14px/20px;
+    /*font: 14px/20px;*/
+	font-size:14px;
+	line-height: 20px;
     height: 20px;
     width: 126px;
     margin: 0 0 0 35px;
@@ -1740,11 +1742,15 @@ body{
 	margin-right: 0;
 }
 .bqqdbox .coon .coonlist .coonbox1{
-    font: 12px/18px;
+    /*font: 12px/18px;*/
+	font-size:12px;
+	line-height: 18px;
     margin-top: 18px;
 }
 .bqqdbox .coon .coonlist .coonbox2{
-    font: 12px/21px;
+    /*font: 12px/21px;*/
+	font-size:12px;
+	line-height: 21px;
     text-align: center;
     color: #FFF;
     background: #F90;
@@ -1754,13 +1760,17 @@ body{
 	float: left;
     color: #999;
     margin-top: 8px;
-    font: 12px/18px;
+    /*font: 12px/18px;*/
+	font-size:12px;
+	line-height: 18px;
 }
 .bqqdbox .coon .coonlist .coonbox4{
     float: right;
     color: #999;
     margin-top: 8px;
-    font: 12px/18px;
+    /*font: 12px/18px;*/
+	font-size:12px;
+	line-height: 18px;
 }
 .bqqdbox .coon .coonlist .coonbox5{
 	position: absolute;
@@ -1793,8 +1803,9 @@ body{
 .xihuantitle p{
 	float: left;
     margin-left: 12px;
-    font: bold 18px/20px;
-    line-height: 22px;
+    /*font: bold 18px/20px;*/
+	font-size:18px;
+	line-height: 22px;
 }
 .xihuancon{
 	width: 1190px;
@@ -1827,8 +1838,9 @@ body{
 	width: 193px;
 	height: 40px;
 	margin: 15px auto 5px;
-	font-size: 10px;
-	font: 12px/20px ;
+	font-size: 12px;
+	line-height: 20px;
+	/*font: 12px/20px ;*/
 }
 .xihuancon .xhc2:hover{
 	color: #F60;
@@ -1844,11 +1856,17 @@ body{
 .xihuancon .xhc3{
 	margin-left: 20px;
     color: #F60;
-    font: bold 16px/18px;
+    /*font: bold 16px/18px;*/
+	font-weight: bold;
+	font-size:16px;
+	line-height: 18px;
 }
 .xihuancon .xhc3 i{
 	color: #F60;
-    font: bold 16px/18px ;
+    /*font: bold 16px/18px ;*/
+	font-weight: bold;
+	font-size:16px;
+	line-height: 18px;
     font-size: 10px;
 }
 .xihuancon .xhc4{
@@ -2065,7 +2083,7 @@ body{
     right: auto;
     margin-left: -670px;
     margin-top: -159.5px;
-    display: block;
+    display: none;
 }
 .gddw li{
 	width: 68px;
@@ -2077,6 +2095,7 @@ body{
     font-size: 12px;
 }
 .gddw li a{
+	display: block;
 	text-decoration: none;
     color: #333;
 }
@@ -2092,6 +2111,10 @@ body{
 .gddw li:last-child{
 	background-color: #5E4A4A;
 }
+.gddw .litop{
+
+}
+
 .gddw-right{
  	width:35px;
 	height: 100%;
